@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CATCHA</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="src//favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/assets//favicon.ico">
 
 </head>
 
@@ -30,7 +30,7 @@
         <div class="flex items-center space-x-8 p-8 bg-white border border-gray-300 rounded-lg shadow-lg">
             <input type="checkbox" id="captchaCheckbox" class="form-checkbox h-10 w-10 text-blue-600">
             <label for="captchaCheckbox" class="text-3xl font-medium">I am a cat</label>
-            <img src="src//11.jpg" alt="Logo" class="w-16">
+            <img src="/assets//11.jpg" alt="Logo" class="w-16">
         </div>
         
         
@@ -38,27 +38,27 @@
         <div id="captchaContainer" class="hidden border border-gray-300 p-8 rounded-lg bg-white">
             <p class="text-center mb-6 text-xl">Please choose 4 or more cats, then click submit button</p>
             <div class="grid grid-cols-3 gap-6">
-                <img src="src/1.jpg" alt="Captcha Image 1" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src/2.jpg" alt="Captcha Image 2" class="w-32 h-32 cursor-pointer">
-                <img src="src//3.jpg" alt="Captcha Image 3" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//4.jpg" alt="Captcha Image 4" class="w-32 h-32 cursor-pointer">
-                <img src="src//5.jpg" alt="Captcha Image 5" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//6.jpg" alt="Captcha Image 6" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//7.jpg" alt="Captcha Image 7" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//8.jpg" alt="Captcha Image 8" class="w-32 h-32 cursor-pointer">
-                <img src="src//9.jpg" alt="Captcha Image 9" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//10.jpg" alt="Captcha Image 10" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//11.jpg" alt="Captcha Image 11" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//12.jpg" alt="Captcha Image 12" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//13.jpg" alt="Captcha Image 13" class="captcha-images w-32 h-32 cursor-pointer">
-                <img src="src//14.jpg" alt="Captcha Image 14" class="w-32 h-32 cursor-pointer">
-                <img src="src//15.jpg" alt="Captcha Image 15" class="w-32 h-32 cursor-pointer">
+                <img src="/assets/1.jpg" alt="Captcha Image 1" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets/2.jpg" alt="Captcha Image 2" class="w-32 h-32 cursor-pointer">
+                <img src="/assets//3.jpg" alt="Captcha Image 3" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//4.jpg" alt="Captcha Image 4" class="w-32 h-32 cursor-pointer">
+                <img src="/assets//5.jpg" alt="Captcha Image 5" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//6.jpg" alt="Captcha Image 6" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//7.jpg" alt="Captcha Image 7" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//8.jpg" alt="Captcha Image 8" class="w-32 h-32 cursor-pointer">
+                <img src="/assets//9.jpg" alt="Captcha Image 9" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//10.jpg" alt="Captcha Image 10" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//11.jpg" alt="Captcha Image 11" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//12.jpg" alt="Captcha Image 12" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//13.jpg" alt="Captcha Image 13" class="captcha-images w-32 h-32 cursor-pointer">
+                <img src="/assets//14.jpg" alt="Captcha Image 14" class="w-32 h-32 cursor-pointer">
+                <img src="/assets//15.jpg" alt="Captcha Image 15" class="w-32 h-32 cursor-pointer">
             </div>
             <button id="submitButton" class="hidden mt-6 px-4 py-2 bg-blue-600 text-white rounded">Submit</button>
         </div>
     </div>
 
-    <audio id="meowSound" src="src//meow.mp3"></audio>
+    <audio id="meowSound" src="/assets//meow.mp3"></audio>
 
     <script>
         document.getElementById('captchaCheckbox').addEventListener('click', function() {
